@@ -1,17 +1,24 @@
 # get_input
 Python module to take input of a defined data type from user
 
-#How to use
+# How to use
 
-import get_input
-return_value = get_input.input(prompt, data_type)
+`import get_input
+return_value = get_input.input(prompt, data_type)`
 
-##data type which can be used:
+
+## data type which can be used:
   'int' for integer
   'str' for string
   'float' for float values
   
-#Example code
-integer_value = get_input.input("Please enter a number: ", 'int')
+# Example code
+`integer_value = get_input.input("Please enter a number: ", 'int')`
+
+`>>Please enter a number: hello
+Please enter an integer value.
+Please enter a number: 5.0
+Please enter an integer value.
+Please enter a number: 5
 
 --It will ask the user to enter an integer value and will wait till an integer value is returned--
