@@ -10,9 +10,9 @@ return_value = get_input.input(prompt, data_type)
 
 
 ## Data types which can be used:
-  'int' for integer
-  'str' for string
-  'float' for float values
+  -'int' for integer,
+  -'str' for string
+  -'float' for float values
   
   
 # Example code
